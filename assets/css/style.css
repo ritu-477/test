@@ -229,23 +229,25 @@ body {
 .accordion-button {
     background-color: var(--light-gray) !important;
     border-radius: 12px !important;
-    padding: 21px 20px 19px 20px;
+    padding: 12px !important;
 }
 
 .accordion-button:not(.collapsed)::after {
     content: "-" !important;
-    font-size: 60px !important;
+    font-size: 30px !important;
     font-weight: 0;
+    opacity: 70%;
 }
 
 .accordion-button::after {
     content: "+" !important;
     position: absolute;
     color: black !important;
-    font-size: 40px;
+    font-size: 20px;
     line-height: 23.36px;
-    right: 20px;
-    top: 25px;
+    right: 5px;
+    top: 20px;
+    font-size: 20px;
     opacity: 70%;
     background-image: none !important;
 }
@@ -440,6 +442,19 @@ button:focus:not(:focus-visible) {
 
     .footer-logo {
         max-width: 100px;
+    }
+
+    .accordion-button {
+        padding: 21px 20px 19px 20px !important;
+    }
+
+    .accordion-button::after {
+        right: 20px;
+        top: 25px;
+        font-size: 40px;
+    }
+    .accordion-button:not(.collapsed)::after{
+        font-size: 60px !important;
     }
 }
 
