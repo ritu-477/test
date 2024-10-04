@@ -1,0 +1,96 @@
+:root {
+    /* font-size */
+    --font-xxsm: 10px;
+    --font-xsm: 12px;
+    --font-sm: 16px;
+    --font-md: 20px;
+    --font-lg: 20px;
+    --font-xl: 26px;
+
+    /* font-color */
+    --white: #ffffff;
+    --black: #000000;
+    --deep-blue: #1b3353;
+    --off-white: #fefefe;
+    --sky-blue: #eefaff;
+    --light-blue: #ddecff;
+    --gray: #f3f5f6;
+    --blue: #2ba8e0;
+    --shadow-box:#1B33531F;
+}
+
+.color-white {
+    color: var(--white);
+}
+
+.color-black {
+    color: var(--black);
+}
+
+.color-deep-blue {
+    color: var(--deep-blue);
+}
+
+.color-off-white {
+    color: var(--off-white);
+}
+
+.color-sky-blue {
+    color: var(--sky-blue);
+}
+
+.color-light-blue {
+    color: var(--light-blue);
+}
+
+.color-gray {
+    color: var(--gray);
+}
+
+.color-blue {
+    color: var(--blue);
+}
+
+/* font size */
+.font-xxsm {
+    font-size: var(--font-xxsm);
+}
+
+.font-xsm {
+    font-size: var(--font-xsm);
+}
+
+.font-sm {
+    font-size: var(--font-sm);
+}
+
+.font-md {
+    font-size: var(--font-md);
+}
+
+.font-lg {
+    font-size: var(--font-lg);
+}
+
+.font-xl {
+    font-size: var(--font-xl);
+}
+
+@media(min-width:576px) {
+    :root {
+    --font-xl: 28px;
+    --font-lg: 24px;
+    }
+}
+
+@media(min-width:768px) {
+    :root {
+    --font-xl: 32px;
+    }
+}
+
+@media(min-width:992px) {
+    :root {
+        --font-xl: 40px;
+    }
+}
