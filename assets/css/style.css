@@ -183,6 +183,34 @@ body {
     fill: var(--deep-blue);
 }
 
+/* faq-asked */
+.faq-asked {
+    padding: 24px 0 24px 0;
+}
+.faq-para{
+    max-width: 624px;
+    margin: auto;
+}
+.accordion{
+    margin-top: 45px !important;
+    max-width: 961px;
+    margin: auto;
+}
+.accordian-para{
+    max-width: 672px;
+}
+.accordion-item{
+    margin-bottom: 20px !important;
+    border-radius: 10px !important;
+    border: solid 1px var(--deep-blue) !important;
+    
+}
+.accordion-button:not(.collapsed){
+     color: black !important;
+     background: var(--light-gray) !important;
+     box-shadow:  none !important;
+}
+
 /*  why-path*/
 .why-path {
     border-radius: 8px;
@@ -228,6 +256,7 @@ body {
     max-width: 48px;
 }
 
+
 /* footer */
 .bg-deepblue {
     background: var(--deep-blue);
@@ -238,30 +267,38 @@ body {
 .footer-logo {
     max-width: 80px;
 }
-.footer-para{
-   width: 100%;
+
+.footer-para {
+    width: 100%;
     padding: 22px 0;
 }
-.footer-icon{
+
+.footer-icon {
     gap: 22px;
 }
-.icon-hover{
+
+.icon-hover {
     transition: .3s;
 }
-.icon-hover:hover{
+
+.icon-hover:hover {
     transform: scale(1.1);
 }
-.link-hover{
+
+.link-hover {
     transition: .3s;
 }
-.link-hover:hover{
+
+.link-hover:hover {
     color: white;
     opacity: 1 !important;
 }
-.footer-border{
-   border-top: solid 2px  var(--footer-border);
-   padding: 25px 0 23px 0;
+
+.footer-border {
+    border-top: solid 2px var(--footer-border);
+    padding: 25px 0 23px 0;
 }
+
 .topBtn {
     width: 40px;
     height: 40px;
@@ -270,7 +307,7 @@ body {
     position: fixed;
     bottom: 30px;
     right: 30px;
-  background-color: var(--blue);
+    background-color: var(--blue);
     cursor: pointer;
     padding: 10px;
     z-index: 15;
@@ -314,6 +351,10 @@ body {
 
     .hero-box {
         padding: 20px;
+    }
+
+    .faq-asked {
+        padding: 40px 0 40px 0;
     }
 
     .main-para {
@@ -363,6 +404,10 @@ body {
         padding: 50px 0;
     }
 
+    .faq-asked {
+        padding: 50px 0 50px 0;
+    }
+
     .treatment {
         padding: 50px 0;
     }
@@ -390,7 +435,8 @@ body {
     .footer-logo {
         max-width: 138px;
     }
-    .bg-deepblue{
+
+    .bg-deepblue {
         padding-top: 227px;
     }
 }
@@ -399,6 +445,10 @@ body {
     .hero-team {
         padding-top: 97px;
         padding-bottom: 65px;
+    }
+
+    .faq-asked {
+        padding: 83px 0 65px 0;
     }
 
     .marketing-agency {
@@ -416,7 +466,8 @@ body {
     .interested-learning {
         padding-top: 65px;
     }
-    .footer-para{
+
+    .footer-para {
         max-width: 364px;
     }
 }
