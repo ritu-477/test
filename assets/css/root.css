@@ -2,9 +2,9 @@
     /* font-size */
     --font-xxsm: 10px;
     --font-xsm: 12px;
-    --font-sm: 16px;
+    --font-sm: 14px;
     --font-md: 20px;
-    --font-lg: 20px;
+    --font-lg: 18px;
     --font-xl: 26px;
 
     /* font-color */
@@ -15,8 +15,10 @@
     --sky-blue: #eefaff;
     --light-blue: #ddecff;
     --gray: #f3f5f6;
+    --ocean-blue:#FEFEFE;
     --blue: #2ba8e0;
     --shadow-box:#1B33531F;
+    --border-gray:#d1d5dc;
 }
 
 .color-white {
@@ -50,6 +52,9 @@
 .color-blue {
     color: var(--blue);
 }
+.color-ocean-blue{
+    color: var(--ocean-blue);
+}
 
 /* font size */
 .font-xxsm {
@@ -80,6 +85,7 @@
     :root {
     --font-xl: 28px;
     --font-lg: 24px;
+    --font-sm: 16px;
     }
 }
 

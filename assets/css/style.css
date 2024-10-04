@@ -38,9 +38,9 @@ body {
 
 .container {
     max-width: 1180px !important;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 20px 0 20px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 0 20px 0 20px !important;
 }
 
 .hero-team {
@@ -48,14 +48,17 @@ body {
     padding-bottom: 24px;
 
 }
-.main-para{
+
+.main-para {
     max-width: 836px;
-    padding-bottom: 40px;
+    padding-bottom: 24px;
 }
-.hero-img{
+
+.hero-img {
     max-width: 348px;
 }
-.hero-box{
+
+.hero-box {
     max-width: 558px;
     padding: 10px;
     height: 156px;
@@ -63,8 +66,112 @@ body {
     background: white;
     border-radius: 12px;
 }
-.max-w-row{
+
+.max-w-row {
     max-width: 1016px;
+}
+
+/* marketing-agency */
+.marketing-agency {
+    padding: 24px 0;
+}
+
+.marketing-para {
+    max-width: 760px;
+    padding-bottom: 24px;
+}
+
+.webserv-box {
+    box-shadow: 0px 14px 30.5px 0px var(--shadow-box);
+    padding: 10px;
+    border-radius: 12px;
+    border: solid 0.5px var(--border-gray);
+    transition: .3s;
+    min-height: 250px;
+}
+
+.advanced-para {
+    padding-bottom: 27px;
+}
+
+.webserv-box:hover {
+    background: var(--deep-blue);
+}
+
+.webserv-box:hover .text-color {
+    color: white;
+}
+
+.webserv-box:hover .advanced-para {
+    color: var(--ocean-blue);
+}
+
+/* card-section-3rd */
+.blue-bgimage {
+    background-image: url("/assets/images/webp/blue-bg-image.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 1210px;
+    width: 100%;
+    margin: auto;
+    border-radius: 12px;
+    padding: 25px 20px;
+}
+
+.blue-card {
+    padding: 24px 0;
+}
+
+.mobile-image {
+    max-width: 461px;
+}
+
+/* ClearPath Treatment Solutions */
+.treatment {
+    padding: 24px 0;
+}
+
+.card-treatment {
+    box-shadow: 0px 14px 30.5px 0px var(--shadow-box);
+    padding: 0 10px 10px;
+    border-radius: 12px;
+    min-height: 250px;
+    transition: .3s;
+}
+
+.square-box {
+    box-shadow: 0px 14px 30.5px 0px var(--shadow-box);
+    border-radius: 6px;
+    padding: 12px;
+    max-width: 99px;
+    background: var(--deep-blue);
+    margin-top: -8px;
+    margin-bottom: 36px;
+}
+
+.para-treatment {
+    width: 100%;
+}
+
+.card-treatment:hover {
+    background: var(--deep-blue);
+}
+
+.card-treatment:hover .text-color {
+    color: white;
+}
+
+.card-treatment:hover .para-treatment {
+    color: var(--ocean-blue);
+}
+
+.card-treatment:hover .square-box {
+    background: white;
+}
+
+.card-treatment:hover .square-box svg path {
+    fill: var(--deep-blue);
 }
 
 
@@ -75,12 +182,49 @@ body {
     .hero-team {
         padding-bottom: 40px;
     }
-         .leading-lg {
-             line-height: 40px;
-         }
-                 .hero-box{
-                    padding: 20px;
-                 }
+
+    .marketing-agency {
+        padding: 40px 0;
+    }
+
+    .blue-card {
+        padding: 40px 0;
+    }
+
+    .treatment {
+        padding: 40px 0;
+    }
+
+    .leading-lg {
+        line-height: 40px;
+    }
+
+    .hero-box {
+        padding: 20px;
+    }
+
+    .main-para {
+        padding-bottom: 40px;
+    }
+
+    .marketing-para {
+        padding-bottom: 40px;
+    }
+
+    .webserv-box {
+        padding: 20px;
+    }
+
+    .blue-bgimage {
+        padding: 39px 35px;
+    }
+
+    .card-treatment {
+        padding: 0 32px 26px 32px;
+    }
+    .square-box{
+        padding: 23px 25px 23px 24px;
+    }
 }
 
 @media(min-width:768px) {
@@ -88,9 +232,30 @@ body {
         padding-top: 60px;
         padding-bottom: 50px;
     }
-         .leading-lg {
-             line-height: 48px;
-         }
+
+    .leading-lg {
+        line-height: 48px;
+    }
+
+    .blue-card {
+        padding: 50px 0;
+    }
+
+    .treatment {
+        padding: 50px 0;
+    }
+
+    .marketing-agency {
+        padding: 50px 0;
+    }
+
+    .webserv-box {
+        min-height: 300px;
+    }
+
+    .card-treatment {
+        min-height: 320px;
+    }
 }
 
 @media(min-width:992px) {
@@ -98,16 +263,31 @@ body {
         padding-top: 97px;
         padding-bottom: 65px;
     }
-        .leading-xxsm {
-            line-height: 18px;
-        }
-    
-        .leading-sm {
-            line-height: 24px;
-        }
-    
-        .leading-md {
-            line-height: 28.8px;
-        }
-    
+
+    .marketing-agency {
+        padding: 65px 0;
+    }
+
+    .blue-card {
+        padding: 65px 0;
+    }
+
+    .treatment {
+        padding: 65px 0;
+    }
+}
+
+@media(min-width:1200px) {
+    .advanced-para {
+        max-width: 323px;
+    }
+
+    .para-treatment {
+        max-width: 300px;
+    }
+
+    .text-color {
+        max-width: 311px;
+    }
+
 }
