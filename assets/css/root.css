@@ -5,7 +5,7 @@
     --font-sm: 14px;
     --font-md: 20px;
     --font-lg: 18px;
-    --font-xl: 26px;
+    --font-xl: 24px;
 
     /* font-color */
     --white: #ffffff;
@@ -19,6 +19,8 @@
     --blue: #2ba8e0;
     --shadow-box:#1B33531F;
     --border-gray:#d1d5dc;
+    --border-blue:#a3adba;
+    --footer-border:#495c75;
 }
 
 .color-white {
@@ -97,6 +99,11 @@
 
 @media(min-width:992px) {
     :root {
-        --font-xl: 40px;
+        --font-xl: 35px;
     }
+}
+@media(min-width:1200px){
+    :root {
+            --font-xl: 40px;
+        }
 }
