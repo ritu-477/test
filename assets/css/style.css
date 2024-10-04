@@ -187,29 +187,81 @@ body {
 .faq-asked {
     padding: 24px 0 24px 0;
 }
-.faq-para{
-    max-width: 624px;
-    margin: auto;
-    padding-bottom: 45px;
+
+.faq-para {
+    max-width: 627px;
+    padding: 10px 0 45px 0;
 }
-.accordion{
-    /* margin-top: 45px !important; */
+
+.accordion {
     max-width: 961px;
-    margin: auto;
+    margin: 0 auto;
 }
-.accordian-para{
-    max-width: 672px;
+
+.accordion-button:not(.collapsed) {
+    color: black !important;
+    background-color: var(--light-gray) !important;
+    box-shadow: none !important;
+    border-radius: 12px !important;
 }
-.accordion-item{
+
+.accordion-item {
     margin-bottom: 20px !important;
+    color: var(--bs-accordion-color);
+    background-color: var(--light-gray) !important;
+    border: 1px solid var(--deep-blue) !important;
     border-radius: 10px !important;
-    border: solid 1px var(--deep-blue) !important;
-    
 }
-.accordion-button:not(.collapsed){
-     color: black !important;
-     background: var(--light-gray) !important;
-     box-shadow:  none !important;
+
+.border-left-radius {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.accordion-body {
+    background-color: var(--light-gray) !important;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 0 20px 19px 20px;
+    max-width: 674px;
+}
+
+.accordion-button {
+    background-color: var(--light-gray) !important;
+    border-radius: 12px !important;
+    padding: 21px 20px 19px 20px;
+}
+
+.accordion-button:not(.collapsed)::after {
+    content: "-" !important;
+    font-size: 60px !important;
+    font-weight: 0;
+}
+
+.accordion-button::after {
+    content: "+" !important;
+    position: absolute;
+    color: black !important;
+    font-size: 40px;
+    line-height: 23.36px;
+    right: 20px;
+    top: 25px;
+    opacity: 70%;
+    background-image: none !important;
+}
+
+button:focus:not(:focus-visible) {
+    outline: 0 !important;
+}
+
+.accordion-button:focus {
+    z-index: 0 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.accordion-py {
+    padding: 25px;
 }
 
 /*  why-path*/
