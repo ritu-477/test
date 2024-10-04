@@ -190,9 +190,10 @@ body {
 .faq-para{
     max-width: 624px;
     margin: auto;
+    padding-bottom: 45px;
 }
 .accordion{
-    margin-top: 45px !important;
+    /* margin-top: 45px !important; */
     max-width: 961px;
     margin: auto;
 }
