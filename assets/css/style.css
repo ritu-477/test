@@ -19,23 +19,6 @@ body {
     font-family: 'Ei Messiri', sans-serif;
 }
 
-/* line height */
-.leading-xxsm {
-    line-height: 18px;
-}
-
-.leading-sm {
-    line-height: 24px;
-}
-
-.leading-md {
-    line-height: 28.8px;
-}
-
-.leading-lg {
-    line-height: 32px;
-}
-
 .container {
     max-width: 1180px !important;
     margin-left: auto !important;
@@ -184,7 +167,7 @@ body {
 }
 
 /* faq-asked */
-.faq-asked {
+.faq-parent {
     padding: 24px 0 24px 0;
 }
 
@@ -354,7 +337,7 @@ button:focus:not(:focus-visible) {
     padding: 25px 0 23px 0;
 }
 
-.topBtn {
+.top-btn {
     width: 40px;
     height: 40px;
     border-radius: 50px;
@@ -369,11 +352,11 @@ button:focus:not(:focus-visible) {
     transition: .3s;
 }
 
-.topBtn.show {
+.top-btn.show {
     visibility: visible;
 }
 
-.topBtn:hover {
+.top-btn:hover {
     box-shadow: 0px 3px 15px 3px var(--shadow-box);
 }
 
@@ -400,15 +383,11 @@ button:focus:not(:focus-visible) {
         padding-top: 40x;
     }
 
-    .leading-lg {
-        line-height: 40px;
-    }
-
     .hero-box {
         padding: 20px;
     }
 
-    .faq-asked {
+    .faq-parent {
         padding: 40px 0 40px 0;
     }
 
@@ -453,7 +432,8 @@ button:focus:not(:focus-visible) {
         top: 25px;
         font-size: 40px;
     }
-    .accordion-button:not(.collapsed)::after{
+
+    .accordion-button:not(.collapsed)::after {
         font-size: 60px !important;
     }
 }
@@ -464,15 +444,12 @@ button:focus:not(:focus-visible) {
         padding-bottom: 50px;
     }
 
-    .leading-lg {
-        line-height: 48px;
-    }
 
     .blue-card {
         padding: 50px 0;
     }
 
-    .faq-asked {
+    .faq-parent {
         padding: 50px 0 50px 0;
     }
 
@@ -515,7 +492,7 @@ button:focus:not(:focus-visible) {
         padding-bottom: 65px;
     }
 
-    .faq-asked {
+    .faq-parent {
         padding: 83px 0 65px 0;
     }
 

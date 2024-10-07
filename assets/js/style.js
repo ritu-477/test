@@ -1,15 +1,5 @@
-const accordionbtn2 = document.querySelectorAll(".accordionbtn2")
-accordionbtn2.forEach((e) => {
-    e.addEventListener("click", () => {
-        const activeaccodion = document.querySelector(".active")
-        e.parentElement.classList.toggle("active")
-        activeaccodion && activeaccodion.classList.remove("active")
-
-    })
-
-});
-
-const mybutton = document.querySelector(".topBtn");
+// backto-top-button
+const mybutton = document.querySelector(".top-btn");
 const show = document.querySelector(".show")
 
 window.addEventListener("scroll", function () {
